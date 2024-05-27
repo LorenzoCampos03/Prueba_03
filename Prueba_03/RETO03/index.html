@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>prueba03</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/30134645ab.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <img src="/imagenes/logo.jpg" alt="logo" />
+          <a href="index.html"></a>
+        </div>
+        <p class="logo-txt">El Jardinero Feliz</p>
+        <nav class="menu">
+          <div class="head">
+            <div class="logo"><img src="/imagenes/logo.jpg" alt="" /></div>
+            <button type="button" class="close-menu-btn"></button>
+          </div>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="dropdown">
+              <a href="#">Promociones</a>
+              <i class="fa-solid fa-chevron-down"></i>
+              <ul class="sub-menu">
+                <li>
+                  <a href="#"><span>Productos de Jardineria</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>Herramientas de Jardineria</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>Semillas</span></a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="./html/h.html">Nosotros</a>
+              <i class="fa-solid fa-chevron-down"></i>
+              <ul class="sub-menu">
+                <li>
+                  <a href="#"><span>Ubicación</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>Nuestras Sedes</span></a>
+                </li>
+                <li>
+                  <a href="#"><span>Nuestro Personal</span></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="portada">
+      <div class="header-content container">
+        <div class="header-txt">
+          <h1>Bienvenido a el <br /><span>Jardinero Feliz</span></h1>
+          <p class="info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi non
+            eius aliquid consectetur ut itaque unde hic libero inventore
+            corporis veritatis accusantium sapiente, eveniet qui ea asperiores
+            consequuntur soluta. Voluptatum.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="productos-vendidos">
+      <h2 class="titulo-seccion">Nuestros productos más Vendidos</h2>
+      <div class="contenedor-carrusel">
+        <div class="atras botones">&lt;</div>
+        <img src="./imagenes/producto-1.jpg" alt id="imagen" />
+        <div class="adelante botones">&gt;</div>
+      </div>
+    </section>
+    <section>
+      <h2>¿Quieres hacer un pedido? CONTACTANOS¡¡</h2>
+      <div class="formulario">
+        <h2>Formulario de contacto</h2>
+        <form action="#" method="POST">
+          <div class="campo">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required />
+          </div>
+          <div class="campo">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required />
+          </div>
+          <div class="campo">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required />
+          </div>
+          <div class="campo">
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required />
+          </div>
+          <div class="boton">
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <ul class="social-icon">
+          <li class="icon-elem">
+              <a href class="icon">
+                  <ion-icon name="mail-outline"></ion-icon>
+              </a>
+
+          </li>
+          <li class="icon-elem">
+              <a href class="icon">
+                  <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+
+          </li>
+          <li class="icon-elem">
+              <a href class="icon">
+                  <ion-icon name="call-outline"></ion-icon>
+              </a>
+
+          </li>
+          <li class="icon-elem">
+              <a href class="icon">
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+
+          </li>
+      </ul>
+      <ul class="elemento">
+          <li class="elemento-1">
+              <a href class="elemento-icon">Inicio</a>
+          </li>
+          <li class="elemento-1">
+              <a href class="elemento-icon">Nosotros</a>
+          </li>
+          <li class="elemento-1">
+              <a href class="elemento-icon">Contacto</a>
+          </li>
+          <li class="elemento-1">
+              <a href class="elemento-icon">¿Donde estamos?</a>
+          </li>
+      </ul>
+      <p class="text">© El Jardinero Feliz - Todos los Derechos</p>
+
+  </footer>
+    <script src="main.js"></script>
+
+  </body>
+</html>
